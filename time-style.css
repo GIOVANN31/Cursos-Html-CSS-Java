@@ -1,0 +1,121 @@
+@import url(../colors.css);
+body {
+    background: rgb(11, 36, 71);
+
+}
+
+header {height: 8rem;
+    background-color:var(--cor-secundaria);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+    
+
+}
+
+.logo {
+    height: 100%;
+}
+
+.header-navegacao * {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1rem;
+    color: black;
+}
+
+.header-navegacao *:hover {
+  
+    transform: scale(1.10)
+}
+
+.header-navegacao {
+    display: flex;
+}
+
+.header-navegacao a:nth-child(2) {
+
+
+    text-decoration: underline;
+}
+
+.banner {
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+main {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.pessoas {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom: rem;
+    justify-content: center;
+    gap: 3rem;
+    border-radius: 12px;
+}
+
+.pessoas__imagens {}
+
+.imagens__p {
+    width: 30rem;
+    height: 23rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    padding-right: 3rem;
+    background-color: white;
+    border-radius: 12px;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+.text {
+    background-color: white;
+
+}
+
+p {
+    text-align: center;
+    background-color: white;
+}
+
+.cursos:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 6rem;
+    background: rgb(11,36,71);}
+    
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+
+    }
+ .footer-links a {color: whitesmoke;}
