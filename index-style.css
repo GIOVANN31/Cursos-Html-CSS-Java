@@ -1,0 +1,114 @@
+@import url(./colors.css);
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--cor-primaria)
+}
+
+header {
+
+
+    height: 8rem;
+    background-color: var(--cor-secundaria);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    height: 100%;
+}
+
+.header-navegacao * {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1rem;
+    color: black;
+}
+
+.header-navegacao *:hover {
+    color: var(--cor-primaria)
+    transform: scale(1.10)
+}
+
+
+.banner {
+    width: 100%;
+}
+
+main {
+    background-color: var(--cor-primaria)
+        text-align: center;}
+
+
+
+h1 {
+    margin-top: 1rem;
+    text-align: center;
+    margin: 3rem;
+}
+
+.cursos {
+    display: flex;
+    gap: 20px;
+    width: 80vw;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+}
+
+
+.cursos__cartao {
+    width: 20rem;
+    height: 20rem;
+    background-color: var(--cor-secundaria);
+    border-radius: 24px;
+    border: solid 2px var(--cor-primaria);
+    align-content: center;
+    justify-content: flex-start;
+    gap: 1px;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    display: flex;
+    height: 10rem;
+}
+
+.cursos__cartao:hover {
+    filter: brightness(90%);
+    cursor: pointer;
+    transform: scale(1.12);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 6rem;
+    
+
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-links {
+    color: aliceblue;
+}
+
+.footer-links {
+    margin-bottom: 2rem;
+}
